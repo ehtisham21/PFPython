@@ -23,15 +23,18 @@ elif test==1:
 #Lists Syntax in Python and We can change or update items in Lists
 print("Lists Syntax in Python")
 list1=["Hello", "Smith", "Roll No", 2, "Grade",'A']
+list2=["John", "Jack", "Roll No", 9, "Grade",'B']
 print(list1)
 print(type(list1))
-
+print(list2)
 #UpDating Items in List
 print("Updating Items in Tuple")
 list1[0]="Bye"
 list1[3]=3
 print(list1)
-
+list2[1]="Alex"
+list2[5]="C"
+print(list2)
 #Tuple Syntax in Python and We cannot change or update items in Tuple
 print("Tuple Syntax in Python")
 tuple1=("New","Customer","Id",2)
