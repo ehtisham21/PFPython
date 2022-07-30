@@ -9,3 +9,8 @@ print("Value of d=", d," Jack","Smith",sep=" Hello ",end=" Python ")
 
 print("A","B","C", sep='DEF')
 print("09", "12", "2016", sep="-", end='\n')
+
+aa = 10
+bb = 6
+
+print(aa>>2)
