@@ -91,3 +91,4 @@ listoo=["Smith","Alex",]
 print(listoo)
 del listoo[0]
 print(listoo)
+
