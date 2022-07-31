@@ -54,3 +54,4 @@ print("Sets Syntax in Python")
 set1={"Salary","Month","Year"}
 print(set1)
 print(type(set1))
+
