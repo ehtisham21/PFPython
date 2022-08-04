@@ -56,7 +56,7 @@ print(month1.union(month2))
 
 #Intersection of two sets using and & operator or the intersection() function
 days1={"Friday","Saturday","Wednesday"}
-days2={"Monday","Friday","Wednesday"}
+days2={"Monday","Tuesday","Wednesday"}
 print(days1&days2)
 print(days1.intersection(days2))
 
@@ -70,3 +70,40 @@ name3.intersection_update(name1,name2)
 print(name1)
 print(name3)
 
+#Difference between the two sets using - operator and difference() function
+name4={"Steve","Mic","Britt"}
+name5={"Kaif","Sof","Aza","Mic"}
+name6={"Steve","Alex","Aza"}
+name7={"Steve","Mic","Sof","Kaif"}
+print(name5-name4)
+print(name6.difference(name4,name5,name7))
+
+#Symmetric Difference of two sets using ^ operator or symmetric_difference() method
+s={1,2,3,4,5,6,7}
+e={3,2,4,7,5,35,6,3,0,9}
+print(s^e)
+print(e.symmetric_difference(s))
+
+#Set comparisons by using <, >, <=, >= , == operators
+
+u={"Alex","Smith","Joe","Michael"}
+r={"Alex","Smith"}
+print("This set is superset because all the elements of set r is present in set u: ",u>r)
+
+print("This set is not subset because all the elements of set u is not present in set r: ",u<r)
+
+print("This set is not equivalent set because all the elements of set u and set r are not equal: ",u==r)
+
+
+#FrozenSets
+dd=frozenset(["Ar","BS","CS",2])
+print(type(dd))
+print(dd)
+
+#Frozenset for the dictionary (If we pass the dictionary as the sequence inside the frozenset() method, it will take only the keys from the dictionary and returns a frozenset that contains the key of the dictionary as its elements)
+dict1={"Name":"Smith","Class":"BSCS","RollNo":23}
+print(type(dict1))
+yy=frozenset(dict1)
+print(type(yy))
+for o in yy:
+    print(o)
