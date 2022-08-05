@@ -31,3 +31,11 @@ print(a)
 
 print("The maximum element in tuple is ",max(tup4))
 print("The minimum element in tuple is ",min(tup4))
+
+'''
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which changeable. No duplicate members.
+
+'''
