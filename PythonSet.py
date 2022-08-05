@@ -107,3 +107,11 @@ yy=frozenset(dict1)
 print(type(yy))
 for o in yy:
     print(o)
+
+'''
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which changeable. No duplicate members.
+
+'''
