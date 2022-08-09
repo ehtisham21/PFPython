@@ -38,3 +38,7 @@ def team(**memb):
     for ky,vues in memb.items():
        print(ky,":",vues)
 team(Name= "Mic",Project="Final Year",Class="BSCS")
+
+#Lambda or Anonymous Functions
+lamb=lambda num1,num2:num1*num2
+print(lamb(2,5))
