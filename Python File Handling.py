@@ -73,5 +73,3 @@ dataa.close()
 # if stunaame:
 #     print("File Created")
 
-
-
