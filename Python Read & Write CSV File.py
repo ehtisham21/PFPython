@@ -15,8 +15,15 @@ import pandas as pd
 # print(df)
 
 #CleanUP Messsy Data From File. This will replace na or NX with NaN as it helps us cleaning data from file
-df=pd.read_csv("EmpData.csv",nrows=4,na_values=["na","NA"])
-print(df)
+# df=pd.read_csv("EmpData.csv",nrows=4,na_values=["na","NA"])
+# print(df)
+#
+# #Writing To CSV File and index=False is to not write the index to the csv file
+# df.to_csv("new.csv",index=False,columns=["ID","Name","Salary"])
 
-#Writing To CSV File and index=False is to not write the index to the csv file
-df.to_csv("new.csv",index=False,columns=["ID","Name","Salary"])
+#Write CSV File Using Pandas
+name=["Kaif","Mic"]
+deg=["BSCS","BSIT"]
+dict={"Name":name,"Degree":deg}
+df=pd.DataFrame(dict)
+df.to_csv("new.csv",index=False)
